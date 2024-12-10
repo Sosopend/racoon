@@ -1,0 +1,15 @@
+{
+  "name": "racoon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "sass": "1.82.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass -c": "sass --watch ./intro.scss ./style.css"
+  },
+  "author": "Sofiane PENDELLIAU",
+  "license": "ISC"
+}
