@@ -1,6 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 header nav {
   display: flex;
-  background-color: blue;
+  justify-content: space-between;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+header nav a {
+  color: #9F9F9F;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */

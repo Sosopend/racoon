@@ -1,6 +1,15 @@
 header {
     nav {
         display: flex;
-        background-color: blue;
+        justify-content: space-between;
+        ul {
+            display: flex;
+            list-style: none;
+        }
+        a {
+            color: #9F9F9F;
+            text-decoration: none;
+
+        }
     }
 }
