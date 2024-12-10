@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass -c": "sass --watch ./racoon.scss ./style.css"
+    "sass -c": "sass --watch ./scss/racoon.scss ./style.css"
   },
   "author": "Sofiane PENDELLIAU",
   "license": "ISC"
