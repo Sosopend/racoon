@@ -37,8 +37,10 @@ main div {
   margin: 43px auto;
 }
 main img {
+  width: 300px;
+  height: auto;
   margin-right: 1.625rem;
-  margin-left: 17.8125rem;
+  /*margin-left: 17.8125rem;*/
 }
 main h2 {
   font-family: "cardo";
