@@ -1,15 +1,32 @@
-header {
-    nav {
-        display: flex;
-        justify-content: space-between;
-        ul {
+header{
+    nav{
+        div{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        ul{
             display: flex;
             list-style: none;
+            margin-left: 8.875rem;
+            margin-top: 2.3125rem;
+            margin-bottom: 1.6875rem;
         }
-        a {
+        .first-li{
+            padding-right: 6.875rem;
+        }
+        .li-link{
+            padding-right: 1.875rem;
+        }
+        a{
             color: #9F9F9F;
             text-decoration: none;
-
         }
+        a:hover{
+            color: black;
+        }
+        
     }
+    .banniere{
+        width: 100%;
+     }
 }
