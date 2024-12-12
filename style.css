@@ -5,24 +5,24 @@
 
 header nav div {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  max-width: 1600px;
+  margin: auto;
 }
 header nav ul {
   display: flex;
   list-style: none;
-  margin-left: 8.875rem;
-  margin-top: 2.3125rem;
-  margin-bottom: 1.6875rem;
-}
-header nav .first-li {
-  padding-right: 6.875rem;
+  align-items: center;
 }
 header nav .li-link {
-  padding-right: 1.875rem;
+  padding: 1.875rem;
 }
 header nav a {
   color: #9F9F9F;
   text-decoration: none;
+  font-family: "montserrat";
+  padding: 2.3312rem 0rem 1.7312rem 6.75rem;
+  display: block;
 }
 header nav a:hover {
   color: black;
@@ -32,12 +32,34 @@ header .banniere {
 }
 
 main div {
-  width: 65rem;
+  max-width: 1040px;
   display: flex;
-  margin: 43px 275px 0px 285px;
+  margin: 43px auto;
 }
 main img {
   margin-right: 1.625rem;
+  margin-left: 17.8125rem;
+}
+main h2 {
+  font-family: "cardo";
+  font-size: 2.25rem;
+  font-weight: bolder;
+  margin-top: 0.475rem;
+  margin-bottom: 1rem;
+}
+main p {
+  font-family: "montserrat";
+}
+main .date {
+  font-size: 1.0625rem;
+  font-weight: lighter;
+}
+
+.mainfooter {
+  display: flex;
+  max-width: 1600px;
+  margin: auto;
+  justify-content: space-between;
 }
 
 .cardo-regular {

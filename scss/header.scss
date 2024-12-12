@@ -2,24 +2,24 @@ header{
     nav{
         div{
             display: flex;
-            justify-content: space-evenly;
+            justify-content: space-between;
+            max-width: 1600px;
+            margin: auto;
         }
         ul{
             display: flex;
             list-style: none;
-            margin-left: 8.875rem;
-            margin-top: 2.3125rem;
-            margin-bottom: 1.6875rem;
-        }
-        .first-li{
-            padding-right: 6.875rem;
+            align-items: center;
         }
         .li-link{
-            padding-right: 1.875rem;
+            padding: 1.875rem;
         }
         a{
             color: #9F9F9F;
             text-decoration: none;
+            font-family: 'montserrat';
+            padding: 2.3312rem 0rem 1.7312rem 6.75rem;
+            display: block;
         }
         a:hover{
             color: black;
