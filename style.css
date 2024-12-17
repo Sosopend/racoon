@@ -64,6 +64,34 @@ main .date {
   justify-content: space-between;
 }
 
+footer {
+  font-family: "montserrat";
+  max-width: 378px;
+  background-color: #FBFBFB;
+}
+footer h2 {
+  margin-top: 43px;
+  margin-bottom: 36px;
+  margin-left: 34px;
+}
+footer ul {
+  list-style: none;
+}
+footer a {
+  text-decoration: none;
+  color: #9F9F9F;
+  padding: 17px;
+}
+footer li {
+  margin: 17px;
+}
+footer .footer-line {
+  max-width: 80%;
+  height: 1px;
+  background-color: #9F9F9F;
+  margin: 42.7px auto;
+}
+
 .cardo-regular {
   font-family: "Cardo", serif;
   font-weight: 400;

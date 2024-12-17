@@ -1,0 +1,28 @@
+footer {
+    font-family: 'montserrat';
+    max-width: 378px;
+    background-color: #FBFBFB;
+
+    h2{
+        margin-top: 43px;
+        margin-bottom: 36px;
+        margin-left: 34px;
+    }
+    ul {
+        list-style: none;
+    }
+    a {
+        text-decoration: none;
+        color: #9F9F9F;
+        padding: 17px   ;
+    }
+    li {
+        margin: 17px;
+    }
+    .footer-line {
+        max-width: 80%;
+        height: 1px; 
+        background-color: #9F9F9F;
+        margin: 42.7px auto; 
+    }   
+}
